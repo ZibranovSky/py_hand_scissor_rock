@@ -6,7 +6,8 @@ import time
 print("Simple hand scissor and rock game \n")
 word = ["scissor","hand","rock"]
 
-player_choice = input("Enter your choice (hand/scissor/rock) : ")
+player_choice = input("Enter your choice (hand/scissor/rock) : \n")
+
 
 computer_choice = rand.choice(word)
 
